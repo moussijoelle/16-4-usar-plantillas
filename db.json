@@ -1,0 +1,164 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "City Hunter",
+      "description": "Acción / Comedia / Detective",
+      "content": "Acción, comedia y misterio con el legendario detective de Shinjuku. Episodios: 140.",
+      "created_at": "2024-01-01",
+      "image": "/img/1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Space Adventure Cobra",
+      "description": "Ciencia Ficción / Aventura Space Opera",
+      "content": "Space opera con estilo único y uno de mis referentes de ciencia ficción. Episodios: 31.",
+      "created_at": "2024-01-02",
+      "image": "/img/2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Dragon Ball Z",
+      "description": "Shonen / Acción / Artes Marciales",
+      "content": "El shonen que marcó generaciones y sigue siendo icono mundial. Episodios: 291.",
+      "created_at": "2024-01-03",
+      "image": "/img/3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Lady Oscar (La Rosa de Versalles)",
+      "description": "Drama Histórico / Romance",
+      "content": "Drama histórico y romance que elevó el anime a arte narrativo. Episodios: 40.",
+      "created_at": "2024-01-04",
+      "image": "/img/4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Galaxy Express 999",
+      "description": "Ciencia Ficción / Aventura Espacial",
+      "content": "Viaje espacial poético y referente del anime de ciencia ficción clásico. Episodios: 113.",
+      "created_at": "2024-01-05",
+      "image": "/img/5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Detective Conan",
+      "description": "Misterio / Policial / Suspenso",
+      "content": "El misterio policial de largo recorrido que nunca deja de sorprender. Episodios: 1100+ episodios.",
+      "created_at": "2024-01-06",
+      "image": "/img/6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Cowboy Bebop",
+      "description": "Ciencia Ficción / Neo-Noir / Espacial",
+      "content": "Jazz, espacio y neo-noir en una de las series más influyentes. Episodios: 26.",
+      "created_at": "2024-01-07",
+      "image": "/img/7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "My Hero Academia (Boku no Hero)",
+      "description": "Shonen / Superhéroes / Acción",
+      "content": "Superhéroes modernos con corazón shonen y evolución constante. Episodios: 150+ episodios.",
+      "created_at": "2024-01-08",
+      "image": "/img/8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Naruto",
+      "description": "Shonen / Acción / Ninja",
+      "content": "La saga ninja que popularizó el shonen en occidente. Episodios: 220.",
+      "created_at": "2024-01-09",
+      "image": "/img/9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Death Note",
+      "description": "Misterio / Thriller Psicológico",
+      "content": "Thriller psicológico magistral sobre poder, moral y genialidad. Episodios: 37.",
+      "created_at": "2024-01-10",
+      "image": "/img/10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Ranma ½",
+      "description": "Comedia Romántica / Artes Marciales",
+      "content": "Comedia romántica y artes marciales en su máxima expresión Rumiko. Episodios: 161.",
+      "created_at": "2024-01-11",
+      "image": "/img/11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Nadia: El Secreto del Agua Azul",
+      "description": "Aventura / Ciencia Ficción / Steampunk",
+      "content": "Aventura steampunk precursora del espíritu de exploración Ghibli. Episodios: 39.",
+      "created_at": "2024-01-12",
+      "image": "/img/12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "InuYasha",
+      "description": "Fantasía / Romance / Acción Histórica",
+      "content": "Fantasía histórica y romance épico en el Japón feudal. Episodios: 167.",
+      "created_at": "2024-01-13",
+      "image": "/img/13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "One Piece",
+      "description": "Shonen / Aventura / Piratas",
+      "content": "La gran odisea pirata que redefine la aventura shonen. Episodios: 1100+ episodios.",
+      "created_at": "2024-01-14",
+      "image": "/img/14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Pokémon",
+      "description": "Aventura / Fantasía / Mascotas",
+      "content": "Franquicia global de aventura, amistad y coleccionismo. Episodios: 1200+ episodios.",
+      "created_at": "2024-01-15",
+      "image": "/img/15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Juliette je t'aime (Maison Ikkoku)",
+      "description": "Comedia Romántica / Vida Diaria",
+      "content": "Comedia romántica de convivencia con encanto atemporal. Episodios: 96.",
+      "created_at": "2024-01-16",
+      "image": "/img/16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Princesa Sarah",
+      "description": "Drama / Histórico / Clásico",
+      "content": "Drama clásico que enseñó resiliencia a varias generaciones. Episodios: 46.",
+      "created_at": "2024-01-17",
+      "image": "/img/17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Toro Toro",
+      "description": "Fantasía / Familiar / Studio Ghibli",
+      "content": "Joyas de Studio Ghibli que cierran el mapa con calidez familiar. Episodios: Película clásica.",
+      "created_at": "2024-01-18",
+      "image": "/img/18.jpeg"
+    },
+    {
+      "id": 19,
+      "title": "Saint Seiya (Los Caballeros del Zodíaco)",
+      "description": "Shonen / Acción / Mitología",
+      "content": "Mitología, armaduras sagradas y batallas épicas del recuerdo. Episodios: 114.",
+      "created_at": "2024-01-19",
+      "image": "/img/19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Cardcaptor Sakura",
+      "description": "Mahō Shōjo / Fantasía / Romance",
+      "content": "Mahō shōjo refinado con magia, ternura y diseño impecable. Episodios: 70.",
+      "created_at": "2024-01-20",
+      "image": "/img/20.jpg"
+    }
+  ]
+}

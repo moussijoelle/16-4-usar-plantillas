@@ -1,0 +1,30 @@
+<dialog
+  id="image-dialog"
+  class="open:flex open:flex-col open:items-center rounded-xl border-0 bg-transparent p-0 backdrop:bg-black/80 max-w-[95vw] max-h-[95vh]"
+  aria-labelledby="image-dialog-title"
+>
+  <div class="relative flex flex-col items-center">
+    <img
+      id="image-dialog-img"
+      class="max-w-[90vw] max-h-[80vh] w-auto h-auto object-contain rounded-lg"
+      src=""
+      alt=""
+    >
+    <p id="image-dialog-title" class="text-white text-center mt-3 text-lg font-bold"></p>
+
+    <form method="dialog">
+      <button
+        type="submit"
+        class="absolute -top-3 -right-3 bg-gray-800 text-white rounded-full w-10 h-10 hover:bg-gray-700"
+        aria-label="Cerrar"
+      >
+        ✕
+      </button>
+    </form>
+  </div>
+</dialog>
+
+<script>
+  import { initImageDialog } from '../lib/initImageDialog'
+  initImageDialog()
+</script>

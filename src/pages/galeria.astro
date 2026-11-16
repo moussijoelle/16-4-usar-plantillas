@@ -1,0 +1,39 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+import ImageDialog from '../components/ImageDialog.astro'
+import db from '../../db.json'
+import type { Post as PostType } from '../lib/types'
+
+const posts = db.posts as PostType[]
+---
+
+<DefaultLayout>
+  <title slot="titulo">Galería | Anime Gallery</title>
+
+  <h1 class="text-3xl font-bold mb-6">Galería de imágenes</h1>
+  <p class="text-lg text-gray-800 mb-8">
+    Una vista más visual de mis animes favoritos. Haz clic en una imagen para ampliarla.
+  </p>
+
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {posts.map((post) => (
+      <button
+        type="button"
+        class="block w-full cursor-zoom-in"
+        data-image-trigger
+        data-image={post.image}
+        data-title={post.title}
+        aria-label={`Ver imagen de ${post.title}`}
+      >
+        <img
+          class="rounded-lg w-full aspect-video object-cover hover:opacity-90 transition"
+          src={post.image}
+          alt={post.title}
+          loading="lazy"
+        />
+      </button>
+    ))}
+  </div>
+
+  <ImageDialog />
+</DefaultLayout>

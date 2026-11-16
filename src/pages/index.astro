@@ -1,0 +1,22 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+import Post from '../components/Post.astro'
+import ImageDialog from '../components/ImageDialog.astro'
+import db from '../../db.json'
+import type { Post as PostType } from '../lib/types'
+
+const posts = db.posts as PostType[]
+---
+
+<DefaultLayout>
+  <title slot="titulo">Galería de Animes</title>
+
+  <h1 class="text-3xl font-bold mb-6">Mapa del top 20 de mis animes japoneses preferidos</h1>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {posts.map((post) => (
+      <Post post={post} />
+    ))}
+  </div>
+
+  <ImageDialog />
+</DefaultLayout>
