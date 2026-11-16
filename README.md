@@ -1,43 +1,38 @@
-# Astro Starter Kit: Minimal
+# Usar plantillas — ejercicio 16.4 (Astro)
+
+Aquí el foco era sacar la maquetación repetida a un **layout** y reutilizarlo en varias páginas.
+
+## Qué hace
+
+- Layout común (`DefaultLayout.astro`) con cabecera / navegación
+- Varias páginas que lo usan: inicio, galería, about y contacto
+- La galería sigue mostrando los animes desde `db.json`, con el diálogo de imagen al hacer clic
+
+## Cómo probarlo
 
 ```sh
-pnpm create astro@latest -- --template minimal
+pnpm install
+pnpm dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+pnpm build
+pnpm preview
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Demo: https://astro-16-4-plantillas.netlify.app
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Cómo lo construí
 
-Any static assets, like images, can be placed in the `public/` directory.
+- Creé `src/layouts/DefaultLayout.astro` con el HTML base, el menú y un `<slot />` para el contenido
+- Las páginas (`index`, `galeria`, `about`, `contacto`) envuelven su contenido con ese layout
+- El título se puede pasar con un slot (`slot="titulo"`)
+- Mantuve `Post`, `ImageDialog` y `initImageDialog` de la práctica anterior
 
-## 🧞 Commands
+## Cómo comprobarlo
 
-All commands are run from the root of the project, from a terminal:
+Sin tests. Navego entre las rutas del menú, miro que el layout se repita y que en la galería el diálogo de imagen siga funcionando.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Moussi Joelle · [github.com/moussijoelle](https://github.com/moussijoelle)
